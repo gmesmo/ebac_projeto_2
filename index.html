@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto 2 - Agenda de Telefone HTML + CSS + JS</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id="agenda">
+      <header>
+        <h1>Agenda de contatos</h1>
+      </header>
+      <form id="form-add-contato">
+        <label for="nomeContato">Nome do Contato</label>
+        <input
+          type="text"
+          name="nomeContato"
+          id="nomeContato"
+          placeholder="Digite aqui..."
+          required
+        />
+        <label for="numeroContato">Número do contato</label>
+        <input type="tel" name="numeroContato" id="numeroContato" required />
+        <button type="submit">Registrar na Agenda</button>
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <th id="colunaNome">Nome</th>
+            <th id="colunaTel">Telefone</th>
+          </tr>
+        </thead>
+        <tbody id="corpo-tabela"></tbody>
+      </table>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

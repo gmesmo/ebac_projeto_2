@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: lightgray;
+}
+
+#agenda {
+  margin: 0 auto;
+  margin-top: 5%;
+
+  padding: 30px;
+  width: 55%;
+  height: 80%;
+
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+
+  background-color: gray;
+  padding: 8px;
+}
+
+table {
+  width: 100%;
+
+  margin-top: 20px;
+  background-color: gray;
+}
+
+#colunaTel {
+  width: 40%;
+}
+
+th,
+td {
+  background-color: #ffffff88;
+}
+
+.nome {
+  padding-left: 8px;
+}
+
+.fone {
+  text-align: center;
+}
